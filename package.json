@@ -1,0 +1,29 @@
+{
+  "name": "demots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -w",
+    "test": "vitest run",
+    "test:c": "vitest run coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Este proyecto es parte de un curso de TypeScript diseñado para enseñar los conceptos fundamentales y avanzados de este lenguaje. A lo largo del curso, los estudiantes aprenderán a:",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/node": "^22.13.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.22.0",
+    "vitest": "^3.0.4"
+  }
+}
