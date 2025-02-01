@@ -248,3 +248,5 @@ flycheck_*.el
 # network security
 /network-security.data
 
+# Mac OSX Finder
+.DS_Store
